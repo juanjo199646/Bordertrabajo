@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bordertrabajo</string>
+    <string name="app_str_1">10 : 49</string>
+    <string name="app_str_2">Sabado</string>
+    <string name="app_str_3">29 Agosto 2017</string>
+    <string name="str_4">2</string>
+    <string name="str_5">Llamadas</string>
+    <string name="str_6">4</string>
+    <string name="str_7">Mensajes</string>
+    <string name="str_8">48</string>
+    <string name="str_9">Notificaciónes</string>
+    <string name="str_10">Estado de bateria 91 %</string>
+</resources>
