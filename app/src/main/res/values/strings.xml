@@ -10,4 +10,7 @@
     <string name="str_8">48</string>
     <string name="str_9">Notificaciónes</string>
     <string name="str_10">Estado de bateria 91 %</string>
+    <string name="app_item1">guardar</string>
+    <string name="app_item2">modificar</string>
+    <string name="app_item3">eliminar</string>
 </resources>

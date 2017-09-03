@@ -258,7 +258,8 @@
                             android:layout_height="20sp"
                             android:layout_marginHorizontal="10dp"
                             android:background="@color/colormeabjo"
-                            android:layout_marginLeft="10dp">
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
 
                             <TextView
                                 android:id="@+id/tx_10"
@@ -554,7 +555,8 @@
                             android:layout_height="20sp"
                             android:layout_marginHorizontal="10dp"
                             android:background="@color/colormeabjo"
-                            android:layout_marginLeft="10dp">
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
 
                             <TextView
                                 android:id="@+id/tx_10"
@@ -850,7 +852,8 @@
                             android:layout_height="20sp"
                             android:layout_marginHorizontal="10dp"
                             android:background="@color/colormeabjo"
-                            android:layout_marginLeft="10dp">
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
 
                             <TextView
                                 android:id="@+id/tx_10"
@@ -1146,7 +1149,8 @@
                             android:layout_height="20sp"
                             android:layout_marginHorizontal="10dp"
                             android:background="@color/colormeabjo"
-                            android:layout_marginLeft="10dp">
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
 
                             <TextView
                                 android:id="@+id/tx_10"
@@ -1201,18 +1205,44 @@
             </RelativeLayout>
         </LinearLayout>
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     </ScrollView>
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_10"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+        
+        
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_11"
+            android:background="@"
+            />
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+        
+    </RelativeLayout>
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
 </android.support.design.widget.CoordinatorLayout>
