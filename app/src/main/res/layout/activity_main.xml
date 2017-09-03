@@ -7,6 +7,49 @@
     android:layout_height="match_parent"
     tools:context="com.i053113.bordertrabajo.MainActivity">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <android.support.v7.widget.MenuPopupWindow.MenuDropDownListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/design_menu_item_text"
+            android:layout_margin="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="opcion 3"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:background="@color/colorverde"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="opcion 2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:background="@color/colorverde"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="opcion 1"
+                android:textColor="@color/colormeabjo"
+                android:textSize="20sp"
+                android:background="@color/colorverde"/>
+
+
+
+        </android.support.v7.widget.MenuPopupWindow.MenuDropDownListView>
+
+    </RelativeLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -14,7 +57,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <!--construccion de marco 1-->
 
@@ -1217,15 +1261,34 @@
         android:id="@+id/btn_10"
         android:layout_margin="16dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true">
+        android:layout_alignParentRight="true"
+
+        >
         
-        
-        <android.support.design.widget.FloatingActionButton
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_11"
-            android:background="@"
-            />
+            android:text="opcion 3"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:background="@color/colorverde"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opcion 2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:background="@color/colorverde"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opcion 1"
+            android:textColor="@color/colormeabjo"
+            android:textSize="20sp"
+        android:background="@color/colorverde"/>
 
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
